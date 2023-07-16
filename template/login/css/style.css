@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.962), rgba(0, 0, 0, 0), rgba(255, 254, 254, 0.671)), url('../../web/img/hotel-restaurant-pool-people-flames-fire-others-33332.jpeg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    text-shadow: 2px 2px black;
+}
+
+.sign-up-form {
+    background-color: aliceblue;
+    height: 600px;
+    width: 400px;
+    background: linear-gradient(to right bottom, rgba(7, 7, 7, 0.778), rgba(0, 0, 0, 0.537));
+    border-radius: 20px;
+    transition: 0.2s;
+    display: none;
+
+    &&:hover {
+        scale: 1.02;
+        transition: 0.2s;
+        border: 2px red solid;
+        background: linear-gradient(to right bottom, rgba(7, 7, 7, 0.778), rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 2));
+    }
+}
+
+.sign-up-form.open {
+    display: block;
+}
+
+.sign-up {
+    color: red;
+
+}
+
+.login-form {
+    background-color: aliceblue;
+    height: 600px;
+    width: 400px;
+    background: linear-gradient(to right bottom, rgba(7, 7, 7, 0.778), rgba(0, 0, 0, 0.537));
+    border-radius: 20px;
+    transition: 0.2s;
+    display: none;
+
+    &&:hover {
+        scale: 1.02;
+        transition: 0.2s;
+        border: 2px red solid;
+        background: linear-gradient(to right bottom, rgba(7, 7, 7, 0.778), rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 2));
+    }
+}
+
+.login-form.open {
+    display: block;
+}
+
+.form {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.form input {
+    margin: 70px 0;
+    height: 50px;
+    width: 350px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0.623);
+    border: 2px solid;
+
+    &&:focus {
+        background-color: aliceblue;
+        border: 1px red solid;
+    }
+}
+
+.mg-20 {
+    margin: 20px 0 !important;
+}
+
+.form button {
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.552));
+    transition: 0.2s;
+    border: none;
+
+    &&:hover {
+        transition: 0.2s;
+        scale: 1.02;
+        background: linear-gradient(to left top, rgba(255, 0, 0, 0.742), rgba(255, 255, 255, 0.277));
+    }
+}

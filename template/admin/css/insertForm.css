@@ -1,0 +1,50 @@
+.insert-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
+
+.formSubmit {
+    position: relative;
+    width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: solid #ccc 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.formSubmit #btnInsertRoom,
+.formSubmit input,
+.formSubmit select {
+    width: calc(100% / 1.1);
+    padding: 10px;
+    margin-bottom: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formSubmit input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.formSubmit input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.formSubmit #btnInsertRoom {
+    font-size: 16px;
+    background-color: rgba(4, 0, 132, 0.777);
+    color: #fff;
+}
+
+.formSubmit #btnInsertRoom:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.formSubmit h1 {
+    text-align: center;
+}

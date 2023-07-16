@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.2)), url("../img/hotel-restaurant-pool-people-flames-fire-others-33332.jpeg") no-repeat center/cover;
+}
+
+
+
+
+.header {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.814);
+    z-index: 2;
+
+
+    .header-logo {
+        color: aliceblue;
+        text-shadow: 2px 1px black;
+
+        margin: 10px 0px 0px 10px;
+
+        .logo {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .logo-title {
+            font-family: math;
+            font-size: 11px;
+        }
+    }
+
+    .header-item {
+        display: flex;
+        color: white;
+        width: 100%;
+        margin-left: 60px;
+        text-shadow: 1px 1px black;
+
+        .itemH {
+            margin-left: 30px;
+            width: 140px;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 30px;
+
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.474);
+                border-radius: 10px;
+                cursor: pointer;
+                font-size: 23px;
+            }
+        }
+    }
+
+    .header-login {
+        .login {
+            background-color: rgb(129, 129, 129);
+            color: aliceblue;
+            width: 150px;
+            height: 40px;
+            text-align: center;
+            margin-right: 20px;
+            font-size: 20px;
+            margin-top: 25px;
+            text-shadow: 1px 1px black;
+            border-radius: 20px;
+            padding-top: 8px;
+
+            &:hover {
+                background-color: rgba(250, 75, 75, 0.71);
+                cursor: pointer;
+                scale: 1.02;
+            }
+
+        }
+
+        .notify-login.close {
+            display: none;
+        }
+
+        .notify-login {
+            border-radius: 30px;
+            right: 10px;
+            width: 300px;
+            height: 500px;
+            position: absolute;
+            background-color: #000000db;
+
+            .login-title {
+                position: relative;
+                color: aliceblue;
+                text-align: center;
+                margin-top: 20px;
+                font-size: 30px;
+                text-shadow: 2px 2px black;
+
+                .ti-close {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    font-size: 15px;
+                    padding: 10px 10px;
+
+                    &:hover {
+                        color: red;
+                        cursor: pointer;
+                        scale: 1.05;
+                    }
+                }
+            }
+
+            .login-input-item {
+                margin-top: 50px;
+                width: 270px;
+                height: 50px;
+                border-radius: 20px;
+                padding-left: 20px;
+                font-size: 20px;
+                border: none;
+                background-color: rgba(240, 248, 255, 0.588);
+
+                &:focus {
+                    background-color: rgba(247, 247, 247, 0.94);
+                }
+            }
+
+
+            .botton {
+                margin-top: 40px;
+                height: 40px;
+                width: 130px;
+                border-radius: 20px;
+                font-size: 20px;
+                color: rgb(255, 253, 253);
+                text-shadow: 1px 1px black;
+                background-color: rgba(255, 255, 255, 0.614);
+
+                &:hover {
+                    background-color: rgba(237, 86, 86, 0.819);
+                    scale: 1.025;
+
+                }
+            }
+
+            .login-footer {
+                margin-top: 25px;
+                font-size: 20px;
+
+                .login-footer,
+                a {
+                    color: blue;
+
+                    &:hover {
+                        color: red;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+.body-container {
+
+
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+
+    .name {
+        height: 30px;
+    }
+
+    .search-box {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+
+        .search-item {
+            margin-top: 20px;
+
+            .search {
+                background-color: rgba(240, 248, 255, 0.434);
+                font-size: 20px;
+                width: 500px;
+                height: 40px;
+                border-radius: 20px;
+                padding-left: 20px;
+                cursor: pointer;
+
+                &:focus {
+                    background-color: aliceblue;
+                    border: none;
+                    cursor: 00;
+                }
+            }
+
+            .search-btn {
+
+                margin-left: 20px;
+                font-size: 20px;
+                background-color: rgba(255, 255, 255, 0);
+                border: none;
+                color: aliceblue;
+                text-shadow: 1px 1px black;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+
+    .body-item {
+        justify-content: center;
+        margin-top: 40px;
+        display: flex;
+
+        .trending-room {
+            background-color: rgba(1, 1, 1, 0.647);
+            justify-content: center;
+            display: flex;
+            width: 80%;
+            border-radius: 20px;
+            flex-wrap: wrap;
+            padding-top: 40px;
+            justify-content: space-around;
+         .trending-room-container{
+            display: flex ;
+            width: 80%;
+            border-radius: 20px;
+            flex-wrap: wrap;
+            padding-top: 40px;
+            justify-content: space-around;
+
+         }
+            .trending-room-item {
+                display: flex;
+               
+                justify-content: center;
+                flex-basis: 32%;
+
+                .room {
+                    background-color: rgba(121, 121, 121, 0.419);
+                    width: 300px;
+                    border-radius: 20px;
+                    height: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 20px;
+                    transition: 0.1s;
+
+                    &:hover {
+                        border: solid white;
+                        background: linear-gradient(to right, rgba(5, 3, 3, 0.299), rgba(171, 137, 137, 0.573));
+                        scale: 1.01;
+                        cursor: pointer;
+
+                    }
+
+                    .room>*:last-child {
+                        float: left;
+                    }
+
+                    .room-img {
+                        margin-top: 20px;
+                        width: 250px;
+                        height: 150px;
+                        border: solid rgba(188, 172, 172, 0.603);
+                        border-radius: 9px;
+
+                    }
+
+                    .room-title-about {
+                        margin: 0 30px;
+                        margin-top: 40px;
+                        height: 100px;
+                        color: white;
+                        text-shadow: 1px 1px black;
+                    }
+
+                    .room-btn-container a {
+                        color: #fff;
+                    }
+
+                    .room-btn-container {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-around;
+
+                        .btn {
+                            width: 120px;
+                            height: 40px;
+                            border-radius: 10px;
+                            background: linear-gradient(to left, rgba(0, 0, 0, 0.299), rgba(141, 140, 140, 0.573));
+                            border: solid black;
+                            color: white;
+                        }
+
+                        :hover {
+                            cursor: pointer;
+                            scale: 1.07;
+                            transition: 0.2s;
+                            background: linear-gradient(to right, rgba(248, 41, 41, 0.299), rgba(171, 137, 137, 0.573));
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

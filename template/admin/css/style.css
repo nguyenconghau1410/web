@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+.admin{
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top:  20px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+.header{
+    background-color: rgba(4, 0, 132, 0.777); 
+    width: 100%;
+    height: 100px;
+    display:flex;
+    position: fixed;
+}
+.name{
+    font-style: italic;
+    padding-top: 5px;
+    font-size: 35px;
+    text-shadow: 1px 2px black
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.box-1{
+    margin-left: 1130px;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    height: 613px;
+}
+.sidebar{
+    background: linear-gradient(to bottom, rgba(10, 0, 145, 0.486),rgba(53, 128, 139, 0.538)), rgb(110, 110, 110); 
+    width: 20%; height: 613px;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    border-right: 2px solid black;
+}
+.sidebar li{
+   margin: 30px 40px;
+   text-shadow: 1px 1px rgb(0, 0, 0);
+   font-size: 21px;
+   font-weight: 600;
+}
+
+.sidebar li i a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar li i{
+    margin-right: 10px;
+}
+.center{
+    background-color: white;
+    width: 80%; height: 100%;
+}
+.avt-center{
+    width: 200px; height: 200px;
+    border-radius: 100px;
+    border: 4px solid rgb(72, 81, 84);
+}
+.container-avt{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.items-center{
+    height: 270px;
+}
+.items-center li{
+    list-style-type: none;
+    margin: 50px 100px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.items-center li i{
+    margin-right: 15px;
+}
+.heading{
+    margin:20px 0 0 15px;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #005234b1;
+    color: white}
+
+/* info.php */
+.info-admin .img-info {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.info-admin {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info-admin h1 {
+    margin-bottom: 50px;
+}
+
+a{
+    color: white;
+       
+}
+
